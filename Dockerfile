@@ -1,9 +1,7 @@
-
 # Base image is Arch linux with the base-devel group installed
 FROM archlinux:base-devel
 
-# Labels provide metadata for the image. In addition, specifying 
-# the repo links the container package to the source repo on github
+# Labels provide metadata for the image
 LABEL org.opencontainers.image.source "https://github.com/djnavarro/arch-r-base" 
 LABEL org.opencontainers.image.authors "Danielle Navarro <djnavarro@protonmail.com>" 
 LABEL org.opencontainers.image.description DESCRIPTION
