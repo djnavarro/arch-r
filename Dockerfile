@@ -14,9 +14,7 @@ RUN locale-gen
 ENV LANG=en_US.UTF-8
 ENV LC_ALL=en_US.UTF-8
 
-# Install R: we need the noconfirm flag because there's a 
-# dependendency cycle between harfbuzz and freecycle 
-# (apparently harmless)
+# Install R
 RUN pacman -Syu --noconfirm r
 
 # Default command: just start R
