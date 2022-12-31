@@ -6,12 +6,12 @@ This repository provides a latest-version docker image running R on the current 
 To install the image: 
 
 ```
-docker pull ghcr.io/djnavarro/arch-r:release 
+docker pull ghcr.io/djnavarro/arch-r:main 
 ```
 
 To use this image in your own Dockerfile:
 
 ```
-FROM ghcr.io/djnavarro/arch-r:release
+FROM ghcr.io/djnavarro/arch-r:main
 ```
 
