@@ -1,5 +1,7 @@
 .Rproj.user
 .Rhistory
 .Rdata
+.Rbuildignore
 .httr-oauth
 .DS_Store
+arch-r.Rproj
