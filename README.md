@@ -16,3 +16,8 @@ To use one of these images in your own Dockerfile:
 FROM ghcr.io/djnavarro/arch-r:base
 FROM ghcr.io/djnavarro/arch-r:test
 ```
+
+The source for each image is in the respective branch:
+
+- base: https://github.com/djnavarro/arch-r/tree/base
+- test: https://github.com/djnavarro/arch-r/tree/test
