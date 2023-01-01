@@ -6,7 +6,7 @@ name: publish-docker-image
 
 on:
   push:
-    branches: ['main']
+    branches: ['base', 'test']
     
 env:
   REGISTRY: ghcr.io
