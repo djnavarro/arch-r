@@ -7,8 +7,8 @@ LABEL org.opencontainers.image.description DESCRIPTION
 LABEL org.opencontainers.image.licenses "GPL-3.0"
 
 # Set the locale
-COPY locale.gen /etc/locale.gen
-COPY locale.conf /etc/locale.conf
+COPY test/locale.gen /etc/locale.gen
+COPY test/locale.conf /etc/locale.conf
 RUN locale-gen
 ENV LANG=en_US.UTF-8
 ENV LC_ALL=en_US.UTF-8
