@@ -19,7 +19,7 @@ jobs:
           - dockerfile: ./base/Dockerfile
             image: ghcr.io/djnavarro/arch-r-base
           - dockerfile: ./test/Dockerfile
-            image: ghcr.io/djnavarro/image2
+            image: ghcr.io/djnavarro/arch-r-test
             
     permissions:
       contents: read
