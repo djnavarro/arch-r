@@ -1,6 +1,6 @@
 FROM archlinux:base-devel
 
-LABEL org.opencontainers.image.source "https://github.com/djnavarro/arch-r/base" 
+LABEL org.opencontainers.image.source "https://github.com/djnavarro/arch-r" 
 LABEL org.opencontainers.image.authors "Danielle Navarro <djnavarro@protonmail.com>" 
 LABEL org.opencontainers.image.description DESCRIPTION
 LABEL org.opencontainers.image.licenses "GPL-3.0"
